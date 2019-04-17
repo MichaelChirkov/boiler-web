@@ -1,0 +1,3 @@
+User – agent: *
+Disallow: /admin
+Sitemap: http://rossen-kazan.ru/sitemap.xml

@@ -1,0 +1,378 @@
+.header-menu {	
+	height: 48px;
+	background-color: #006ad0;
+}
+
+
+.nav {
+  margin-bottom: 10px;
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav > li > a {
+  display: inline;
+  margin-right: 5px; /* Отступ слева */
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+
+
+  ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 10px; /* Значение полей */
+    list-style: none;
+   }
+   ul.hr li {
+   	font-size: 1.4em;
+    display: inline; /* Отображать как строчный элемент */
+    margin-left: 5px;
+    margin-right: 0px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   ul.hr > li:hover{
+   	background: #1DBAA5
+   	}
+
+  ul.hr > li > a:hover{
+    text-decoration: none;
+  	color: #000000;
+  	 
+  }
+
+  ul.hr > li > a{
+  	color: #ffffff;
+  }
+
+.category-inf{	
+	width: 100%;
+	border: 1px solid #ddd;
+	float:left;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0 0 1em 0;
+	padding: 0.7em 1em ;
+	background-color: #ffffff;
+}
+
+.category-inf-first{
+	display: inline-flex;	
+	margin: 1em 1.5em;	
+}
+
+img.category{
+	width: 250px !important;
+	height: 250px;
+}
+
+img.guarantees{
+	width: 60px;
+	height: 100px;
+	cursor:pointer;
+	margin-bottom: 10px;
+}
+
+image{
+	cursor:pointer;
+}
+.category-inf-second{
+	height: auto;
+	text-align: left;
+	margin: 3em 2em 0em 3em;
+}
+
+img.delivery{
+	width: 10em;
+	height: 6em;
+}
+
+.category-head{
+	width: 100%;
+	border: 1px solid #ddd;
+	float:left;
+	margin: 2em 0 1em 0;
+	padding: 0.7em 1em ;
+	background-color: #006ad0;
+}
+.boiler-alert{
+	position:fixed;
+	width:auto;
+	height:auto;
+	top:0;
+	right:0;
+}
+
+.col-md-7 {
+	width: 58.33333333%;
+	display: inline-block;
+}
+.col-md-6 {
+	width: 50%;
+}
+.col-md-5 {
+	display: inline-block;
+	width: 40.66666667%;
+}
+
+.col-banner{
+	display: inline-block;
+	width: 100%;
+}
+
+img.col-banner {
+	width: 600px;
+	height: 250px;
+}
+
+/* для tabbale */
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+
+/* увел избр */
+.popup {
+	position: fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:flex;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:fixed;
+	z-index:1;
+	height:100%;
+	width:100%;
+}
+
+
+.popup_img {
+	position: relative;
+	margin:0 auto;
+	align-items: center;
+	z-index:2;
+	max-height:94%;
+	max-width:94%;
+}
+
+
+/* Характер + Габар */
+.mytab {
+	background-color: white;
+}
+.mytab > thead > tr > th{
+	background-color: #006ad0;
+	color: white;
+text-align: center;
+}
+.mytab > tbody > tr > td {
+/*text-align: center;*/
+}
+
+.bold-td{
+	font-weight: bold;
+}
+.count-field{
+	width: 3em;
+	margin-left: 1em;
+}
+
+.accept-btn{
+	height: 1em;
+}
+.order-count{
+	display: inline;
+}
+.boil-modal-body{
+	margin-left: 3em;
+}
+
+/* Modal Form */
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+	display: inline-block ;
+	*display: inline;
+	margin-bottom: 0;
+	vertical-align: middle;
+	*zoom: 1
+}
+
+.form-search .hide, .form-inline .hide, .form-horizontal .hide {
+	display: none
+}
+
+.form-search label, .form-inline label, .form-search .btn-group, .form-inline .btn-group {
+	display: inline-block
+}
+
+.form-search .input-append, .form-inline .input-append, .form-search .input-prepend, .form-inline .input-prepend {
+	margin-bottom: 0
+}
+
+.form-search .radio, .form-search .checkbox, .form-inline .radio, .form-inline .checkbox {
+	padding-left: 0;
+	margin-bottom: 0;
+	vertical-align: middle
+}
+
+.form-search .radio input[type="radio"], .form-search .checkbox input[type="checkbox"], .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
+	float: left;
+	margin-right: 3px;
+	margin-left: 0
+}
+
+.control-group {
+	margin-bottom: 10px
+}
+
+legend + .control-group {
+	margin-top: 20px;
+	-webkit-margin-top-collapse: separate
+}
+
+.form-horizontal .control-group {
+	margin-bottom: 20px;
+	*zoom: 1
+}
+
+.form-horizontal .control-group:before, .form-horizontal .control-group:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+
+.form-horizontal .control-group:after {
+	clear: both
+}
+
+.form-horizontal .control-label {
+	float: left;
+	width: 160px;
+	padding-top: 5px;
+	text-align: right
+}
+
+.form-horizontal .controls {
+	*display: inline-block;
+	*padding-left: 20px;
+	margin-left: 180px;
+	*margin-left: 0
+}
+
+.form-horizontal .controls:first-child {
+	*padding-left: 180px
+}
+
+.form-horizontal .help-block {
+	margin-bottom: 0
+}
+
+.form-horizontal input + .help-block, .form-horizontal select + .help-block, .form-horizontal textarea + .help-block, .form-horizontal .uneditable-input + .help-block, .form-horizontal .input-prepend + .help-block, .form-horizontal .input-append + .help-block {
+	margin-top: 10px
+}
+
+.form-horizontal .form-actions {
+	padding-left: 180px
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	background-color: #fff;
+	padding: 4px 6px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+
+.order-clean{
+	margin: 0 0 0 auto;
+	margin-bottom: 10px;
+}
+.order-summary{
+	text-align: right;
+}
+
+.product-left{
+	flex-direction: row;
+}
+
+.boil-text{
+	font-family:verdana,geneva,sans-serif;
+	width: 100%;
+	border: 1px solid #ddd;
+	float:left;
+	height: auto;
+	margin: 0 0 1em 0;
+	padding: 0.3em 2em ;
+	background-color: #ffffff;
+}
+
+.header-menu > ul > li > a{
+	font-family:verdana,geneva,sans-serif;
+}
+
+.header-menu > ul > li{
+	margin-right: -5px;
+}
+.img-small {
+	display: block;
+	width: 180px;
+	height: 180px;
+	border-radius: 4px;
+	padding: 1px;
+}
+
+.pricelists {
+	list-style-type: none;
+	margin-left: -30px;
+}
+.pricelists > li{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.zapros{
+	font-size: 1.0em !important;
+}
+
+.zapros-hot{
+ font-size: 1.2em !important;
+}
